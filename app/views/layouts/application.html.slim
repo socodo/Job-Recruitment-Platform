@@ -1,0 +1,10 @@
+doctype html
+html
+  = render 'layouts/head'
+
+  body.bg-gray-100.text-gray-900
+    = render 'layouts/header'
+    = render 'layouts/flash'
+
+    main.max-w-6xl.mx-auto.px-4.py-8
+      = yield

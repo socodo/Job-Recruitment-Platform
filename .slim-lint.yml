@@ -1,0 +1,7 @@
+linters:
+  RuboCop:
+    enabled: true
+  
+  QuoteConsistency:
+    enabled: true
+    quotes: single
