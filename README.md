@@ -62,8 +62,6 @@ bundle exec slim-lint app/views
 bundle exec rubocop -A
 ```
 
-## 📦 Deployment
+**Database Design:**
 
-This project is ready to be containerized using Docker and deployed via [Kamal](https://kamal-deploy.org/).
-- `config/deploy.yml`: Contains infrastructure configuration.
-- `Dockerfile`: Production-ready image definition.
+![alt text](docs/erd.png)
