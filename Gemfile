@@ -44,6 +44,9 @@ gem 'image_processing', '~> 1.2'
 
 gem 'slim-rails', '~> 4.0'
 
+gem 'httparty', '~> 0.24'
+
+gem 'nokogiri', '~> 1.19'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
