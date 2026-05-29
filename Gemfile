@@ -63,6 +63,7 @@ group :development, :test do
   gem 'slim_lint', '~> 0.34.0', require: false
 
   gem 'dotenv-rails', '~> 3.1'
+  gem 'faker', '~> 3.8.0'
 end
 
 group :development do
